@@ -70,4 +70,4 @@ result.data <- complete.data %>%
     arrange(subject, activity)
 
 # write data to file
-write.table(result.data, "result_data.txt", row.names = FALSE, quote = FALSE)
+write.table(result.data, "result_data.txt", row.names = FALSE)
